@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.header-titles {
+    margin-right: 55px;
+    font-family: 'Playfair Display', serif;
+}
+
+.header-titles h1 {
+    margin-bottom: -10px;
+}
+
+.header-titles span {
+    color: #aaa;
+}
+
+ .header-titles p {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.logo img {
+    width: 80px;
+    margin-top: 15px;
+    height: 80px;
+  margin-left: 15px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.boxes {
+    padding: 1em 2em;
+}
+
+.boxes ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.boxes h2 {
+    text-align: center;
+    color: #aaaaaa;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+.box-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #aaaaaa;
+}
+
+.box-words {
+    text-align: center;
+}
+
+
+.box img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    text-align: center;
+    padding: .5em;
+    border-top: 1px solid #eeeeee;
+}
+
+@media screen and (min-width: 700px) {
+    .hero-image img {
+        height: 50%;
+    }
+    
+    .flex {
+        display: flex;
+        flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .box img {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .box-words, .box-title {
+        text-align: center;
+         justify-content: center;
+    }
+  
+    .header-titles h1 {
+        font-size: 35px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+  
+    .boxes li {
+        width: 30%;
+    }
+    
+    .boxes p{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .header-titles {
+        margin-left: 15px;
+    }
+}
